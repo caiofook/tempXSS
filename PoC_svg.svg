@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+
+  <defs>
+    <radialGradient id="gradienteRadial" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color: yellow; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: orange; stop-opacity: 1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Imagem de fundo  -->
+  <image href="https://globalesg.com.br/images/noticias/1716/01075720_2021_06_25.jpg" x="0" y="0" width="800" height="600" />
+  
+  <!-- Texto sobre a imagem -->
+  <text x="50%" y="30%" text-anchor="middle" fill="white" font-size="36" font-family="Roboto">
+    Desculpe, houve um problema.
+  </text>
+  
+  <!-- Link clicável abaixo do texto -->
+  <a href="https://login.naturacolombia.poctsi.com/" target="_blank">
+    <rect x="200" y="64%" width="400" height="60" rx="20" ry="20" fill="url(#gradienteRadial)"/>
+    <!-- Texto -->
+    <text x="400" y="70%" text-anchor="middle" fill="blue" font-size="24" font-family="Roboto" >
+      Clique aqui para fazer login novamente
+    </text>
+  </a>
+</svg>
